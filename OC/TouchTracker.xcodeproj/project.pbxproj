@@ -14,6 +14,9 @@
 		35B20CE51B5920C6002877E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B20CE41B5920C6002877E0 /* Images.xcassets */; };
 		35B20CE81B5920C6002877E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35B20CE61B5920C6002877E0 /* LaunchScreen.xib */; };
 		35B20CF41B5920C7002877E0 /* TouchTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B20CF31B5920C7002877E0 /* TouchTrackerTests.m */; };
+		35B20CFF1B59298D002877E0 /* BNRLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B20CFE1B59298D002877E0 /* BNRLine.m */; };
+		35B20D211B59379F002877E0 /* BNRDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B20D201B59379F002877E0 /* BNRDrawView.m */; };
+		35B20D241B59382C002877E0 /* BNRDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B20D231B59382C002877E0 /* BNRDrawViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		35B20CED1B5920C7002877E0 /* TouchTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B20CF21B5920C7002877E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35B20CF31B5920C7002877E0 /* TouchTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTrackerTests.m; sourceTree = "<group>"; };
+		35B20CFD1B59298D002877E0 /* BNRLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRLine.h; sourceTree = "<group>"; };
+		35B20CFE1B59298D002877E0 /* BNRLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRLine.m; sourceTree = "<group>"; };
+		35B20D1F1B59379F002877E0 /* BNRDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDrawView.h; sourceTree = "<group>"; };
+		35B20D201B59379F002877E0 /* BNRDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDrawView.m; sourceTree = "<group>"; };
+		35B20D221B59382C002877E0 /* BNRDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDrawViewController.h; sourceTree = "<group>"; };
+		35B20D231B59382C002877E0 /* BNRDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDrawViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,12 @@
 				35B20CE41B5920C6002877E0 /* Images.xcassets */,
 				35B20CE61B5920C6002877E0 /* LaunchScreen.xib */,
 				35B20CD71B5920C6002877E0 /* Supporting Files */,
+				35B20CFD1B59298D002877E0 /* BNRLine.h */,
+				35B20CFE1B59298D002877E0 /* BNRLine.m */,
+				35B20D1F1B59379F002877E0 /* BNRDrawView.h */,
+				35B20D201B59379F002877E0 /* BNRDrawView.m */,
+				35B20D221B59382C002877E0 /* BNRDrawViewController.h */,
+				35B20D231B59382C002877E0 /* BNRDrawViewController.m */,
 			);
 			path = TouchTracker;
 			sourceTree = "<group>";
@@ -219,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35B20D211B59379F002877E0 /* BNRDrawView.m in Sources */,
+				35B20D241B59382C002877E0 /* BNRDrawViewController.m in Sources */,
 				35B20CE01B5920C6002877E0 /* ViewController.m in Sources */,
 				35B20CDD1B5920C6002877E0 /* AppDelegate.m in Sources */,
+				35B20CFF1B59298D002877E0 /* BNRLine.m in Sources */,
 				35B20CDA1B5920C6002877E0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +308,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
+					VIEW_DEBUG,
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -416,6 +435,7 @@
 				35B20CF91B5920C7002877E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35B20CFA1B5920C7002877E0 /* Build configuration list for PBXNativeTarget "TouchTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +444,7 @@
 				35B20CFC1B5920C7002877E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
