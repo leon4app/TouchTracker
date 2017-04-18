@@ -11,8 +11,6 @@
 		2115EBA11E9FD64B005910EC /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2115EBA01E9FD64B005910EC /* DrawView.swift */; };
 		2115EBA31EA6610A005910EC /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2115EBA21EA6610A005910EC /* DrawViewController.swift */; };
 		2115EBA61EA662C0005910EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2115EBA41EA662C0005910EC /* Main.storyboard */; };
-		2115EBA81EA663CC005910EC /* BNRDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2115EBA71EA663CC005910EC /* BNRDrawView.m */; };
-		2115EBAC1EA664F1005910EC /* BNRLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2115EBAB1EA664F1005910EC /* BNRLine.m */; };
 		35B20CDA1B5920C6002877E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B20CD91B5920C6002877E0 /* main.m */; };
 		35B20CDD1B5920C6002877E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B20CDC1B5920C6002877E0 /* AppDelegate.m */; };
 		35B20CE51B5920C6002877E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B20CE41B5920C6002877E0 /* Images.xcassets */; };
@@ -36,10 +34,6 @@
 		2115EBA01E9FD64B005910EC /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 		2115EBA21EA6610A005910EC /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 		2115EBA51EA662C0005910EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2115EBA71EA663CC005910EC /* BNRDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDrawView.m; sourceTree = "<group>"; };
-		2115EBA91EA664F1005910EC /* BNRDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDrawView.h; sourceTree = "<group>"; };
-		2115EBAA1EA664F1005910EC /* BNRLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRLine.h; sourceTree = "<group>"; };
-		2115EBAB1EA664F1005910EC /* BNRLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRLine.m; sourceTree = "<group>"; };
 		35B20CD41B5920C6002877E0 /* TouchTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B20CD81B5920C6002877E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35B20CD91B5920C6002877E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -108,10 +102,6 @@
 		35B20CD71B5920C6002877E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2115EBA91EA664F1005910EC /* BNRDrawView.h */,
-				2115EBA71EA663CC005910EC /* BNRDrawView.m */,
-				2115EBAA1EA664F1005910EC /* BNRLine.h */,
-				2115EBAB1EA664F1005910EC /* BNRLine.m */,
 				35B20CD81B5920C6002877E0 /* Info.plist */,
 				35B20CD91B5920C6002877E0 /* main.m */,
 			);
@@ -236,11 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2115EBAC1EA664F1005910EC /* BNRLine.m in Sources */,
 				2115EBA31EA6610A005910EC /* DrawViewController.swift in Sources */,
 				35B20CDD1B5920C6002877E0 /* AppDelegate.m in Sources */,
 				2115EB9F1E9FD557005910EC /* Line.swift in Sources */,
-				2115EBA81EA663CC005910EC /* BNRDrawView.m in Sources */,
 				35B20CDA1B5920C6002877E0 /* main.m in Sources */,
 				2115EBA11E9FD64B005910EC /* DrawView.swift in Sources */,
 			);
