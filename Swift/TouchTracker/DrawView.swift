@@ -13,7 +13,7 @@ extension Array where Element: Equatable {
 class DrawView : UIView, UIGestureRecognizerDelegate
 {
     var moveRecognizer: UIPanGestureRecognizer = {
-        var moveRecognizer = UIPanGestureRecognizer(target: self, action: #selector(moveLine(gr:)))
+        var moveRecognizer = UIPanGestureRecognizer(target: self, action: #selector(moveLine))
         return moveRecognizer
     }()
     var linesInProgress = Dictionary<NSValue,Line>()
@@ -116,8 +116,9 @@ class DrawView : UIView, UIGestureRecognizerDelegate
         self.setNeedsDisplay()
     }
     
-    func moveLine(gr: UIPanGestureRecognizer)  {
-        if (self.selectedLine != nil) {
+    func moveLine(_ gr: UIPanGestureRecognizer)  {
+        print("Recognizer Pan")
+        if (self.selectedLine == nil) {
             return
         }
         if gr.state == UIGestureRecognizerState.changed {

@@ -9,16 +9,15 @@
 /* Begin PBXBuildFile section */
 		2115EB9F1E9FD557005910EC /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2115EB9E1E9FD557005910EC /* Line.swift */; };
 		2115EBA11E9FD64B005910EC /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2115EBA01E9FD64B005910EC /* DrawView.swift */; };
+		2115EBA31EA6610A005910EC /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2115EBA21EA6610A005910EC /* DrawViewController.swift */; };
+		2115EBA61EA662C0005910EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2115EBA41EA662C0005910EC /* Main.storyboard */; };
+		2115EBA81EA663CC005910EC /* BNRDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2115EBA71EA663CC005910EC /* BNRDrawView.m */; };
+		2115EBAC1EA664F1005910EC /* BNRLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2115EBAB1EA664F1005910EC /* BNRLine.m */; };
 		35B20CDA1B5920C6002877E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B20CD91B5920C6002877E0 /* main.m */; };
 		35B20CDD1B5920C6002877E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B20CDC1B5920C6002877E0 /* AppDelegate.m */; };
-		35B20CE01B5920C6002877E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B20CDF1B5920C6002877E0 /* ViewController.m */; };
-		35B20CE31B5920C6002877E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B20CE11B5920C6002877E0 /* Main.storyboard */; };
 		35B20CE51B5920C6002877E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B20CE41B5920C6002877E0 /* Images.xcassets */; };
 		35B20CE81B5920C6002877E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35B20CE61B5920C6002877E0 /* LaunchScreen.xib */; };
 		35B20CF41B5920C7002877E0 /* TouchTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B20CF31B5920C7002877E0 /* TouchTrackerTests.m */; };
-		35B20CFF1B59298D002877E0 /* BNRLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B20CFE1B59298D002877E0 /* BNRLine.m */; };
-		35B20D211B59379F002877E0 /* BNRDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B20D201B59379F002877E0 /* BNRDrawView.m */; };
-		35B20D241B59382C002877E0 /* BNRDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B20D231B59382C002877E0 /* BNRDrawViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,25 +34,22 @@
 		2115EB9D1E9FD557005910EC /* TouchTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchTracker-Bridging-Header.h"; sourceTree = "<group>"; };
 		2115EB9E1E9FD557005910EC /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		2115EBA01E9FD64B005910EC /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		2115EBA21EA6610A005910EC /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		2115EBA51EA662C0005910EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2115EBA71EA663CC005910EC /* BNRDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDrawView.m; sourceTree = "<group>"; };
+		2115EBA91EA664F1005910EC /* BNRDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDrawView.h; sourceTree = "<group>"; };
+		2115EBAA1EA664F1005910EC /* BNRLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRLine.h; sourceTree = "<group>"; };
+		2115EBAB1EA664F1005910EC /* BNRLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRLine.m; sourceTree = "<group>"; };
 		35B20CD41B5920C6002877E0 /* TouchTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B20CD81B5920C6002877E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35B20CD91B5920C6002877E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35B20CDB1B5920C6002877E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35B20CDC1B5920C6002877E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		35B20CDE1B5920C6002877E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		35B20CDF1B5920C6002877E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		35B20CE21B5920C6002877E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35B20CE41B5920C6002877E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		35B20CE71B5920C6002877E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		35B20CED1B5920C7002877E0 /* TouchTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B20CF21B5920C7002877E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35B20CF31B5920C7002877E0 /* TouchTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTrackerTests.m; sourceTree = "<group>"; };
-		35B20CFD1B59298D002877E0 /* BNRLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRLine.h; sourceTree = "<group>"; };
-		35B20CFE1B59298D002877E0 /* BNRLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRLine.m; sourceTree = "<group>"; };
-		35B20D1F1B59379F002877E0 /* BNRDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDrawView.h; sourceTree = "<group>"; };
-		35B20D201B59379F002877E0 /* BNRDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDrawView.m; sourceTree = "<group>"; };
-		35B20D221B59382C002877E0 /* BNRDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDrawViewController.h; sourceTree = "<group>"; };
-		35B20D231B59382C002877E0 /* BNRDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDrawViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,20 +93,13 @@
 			children = (
 				35B20CDB1B5920C6002877E0 /* AppDelegate.h */,
 				35B20CDC1B5920C6002877E0 /* AppDelegate.m */,
-				35B20CDE1B5920C6002877E0 /* ViewController.h */,
-				35B20CDF1B5920C6002877E0 /* ViewController.m */,
-				35B20CE11B5920C6002877E0 /* Main.storyboard */,
 				35B20CE41B5920C6002877E0 /* Images.xcassets */,
+				2115EBA41EA662C0005910EC /* Main.storyboard */,
 				35B20CE61B5920C6002877E0 /* LaunchScreen.xib */,
 				35B20CD71B5920C6002877E0 /* Supporting Files */,
-				35B20CFD1B59298D002877E0 /* BNRLine.h */,
 				2115EB9E1E9FD557005910EC /* Line.swift */,
-				35B20CFE1B59298D002877E0 /* BNRLine.m */,
 				2115EBA01E9FD64B005910EC /* DrawView.swift */,
-				35B20D1F1B59379F002877E0 /* BNRDrawView.h */,
-				35B20D201B59379F002877E0 /* BNRDrawView.m */,
-				35B20D221B59382C002877E0 /* BNRDrawViewController.h */,
-				35B20D231B59382C002877E0 /* BNRDrawViewController.m */,
+				2115EBA21EA6610A005910EC /* DrawViewController.swift */,
 				2115EB9D1E9FD557005910EC /* TouchTracker-Bridging-Header.h */,
 			);
 			path = TouchTracker;
@@ -119,6 +108,10 @@
 		35B20CD71B5920C6002877E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2115EBA91EA664F1005910EC /* BNRDrawView.h */,
+				2115EBA71EA663CC005910EC /* BNRDrawView.m */,
+				2115EBAA1EA664F1005910EC /* BNRLine.h */,
+				2115EBAB1EA664F1005910EC /* BNRLine.m */,
 				35B20CD81B5920C6002877E0 /* Info.plist */,
 				35B20CD91B5920C6002877E0 /* main.m */,
 			);
@@ -223,7 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B20CE31B5920C6002877E0 /* Main.storyboard in Resources */,
+				2115EBA61EA662C0005910EC /* Main.storyboard in Resources */,
 				35B20CE81B5920C6002877E0 /* LaunchScreen.xib in Resources */,
 				35B20CE51B5920C6002877E0 /* Images.xcassets in Resources */,
 			);
@@ -243,12 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B20D211B59379F002877E0 /* BNRDrawView.m in Sources */,
-				35B20D241B59382C002877E0 /* BNRDrawViewController.m in Sources */,
-				35B20CE01B5920C6002877E0 /* ViewController.m in Sources */,
+				2115EBAC1EA664F1005910EC /* BNRLine.m in Sources */,
+				2115EBA31EA6610A005910EC /* DrawViewController.swift in Sources */,
 				35B20CDD1B5920C6002877E0 /* AppDelegate.m in Sources */,
-				35B20CFF1B59298D002877E0 /* BNRLine.m in Sources */,
 				2115EB9F1E9FD557005910EC /* Line.swift in Sources */,
+				2115EBA81EA663CC005910EC /* BNRDrawView.m in Sources */,
 				35B20CDA1B5920C6002877E0 /* main.m in Sources */,
 				2115EBA11E9FD64B005910EC /* DrawView.swift in Sources */,
 			);
@@ -273,10 +265,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		35B20CE11B5920C6002877E0 /* Main.storyboard */ = {
+		2115EBA41EA662C0005910EC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				35B20CE21B5920C6002877E0 /* Base */,
+				2115EBA51EA662C0005910EC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

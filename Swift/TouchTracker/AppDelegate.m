@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "BNRDrawViewController.h"
+#import "TouchTracker-Swift.h"
 @interface AppDelegate ()
 
 @end
@@ -19,7 +19,7 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    BNRDrawViewController *dvc = [[BNRDrawViewController alloc]init];
+    DrawViewController *dvc = [[DrawViewController alloc]init];
     self.window.rootViewController = dvc;
     
     self.window.backgroundColor = [UIColor whiteColor];
