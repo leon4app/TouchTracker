@@ -12,7 +12,7 @@ extension Array where Element: Equatable {
 
 class DrawView : UIView, UIGestureRecognizerDelegate
 {
-    var moveRecognizer: UIPanGestureRecognizer = {
+    lazy var moveRecognizer: UIPanGestureRecognizer = {
         var moveRecognizer = UIPanGestureRecognizer(target: self, action: #selector(moveLine))
         return moveRecognizer
     }()
@@ -40,7 +40,7 @@ class DrawView : UIView, UIGestureRecognizerDelegate
         //longpressRecognizer
         let pressRecognizer = UILongPressGestureRecognizer(target: self, action: #selector(self.longPress))
         addGestureRecognizer(pressRecognizer)
-
+        
         moveRecognizer.delegate = self
         moveRecognizer.cancelsTouchesInView = false
         addGestureRecognizer(moveRecognizer)
@@ -193,7 +193,7 @@ class DrawView : UIView, UIGestureRecognizerDelegate
     }
     
     func tap(_ gr: UITapGestureRecognizer) {
-        print("Recognized tap")
+        print("Recognized Tap")
         let point: CGPoint = gr.location(in: self)
         selectedLine = lineAtPoint(p: point)
         if (selectedLine != nil) {
@@ -211,6 +211,7 @@ class DrawView : UIView, UIGestureRecognizerDelegate
     }
     
     func longPress(_ gr: UIGestureRecognizer) {
+        print("Recognized Long Press")
         if gr.state == .began {
             let point: CGPoint = gr.location(in: self)
             selectedLine = lineAtPoint(p: point)
