@@ -10,7 +10,8 @@ import UIKit
 
 class DrawViewController : UIViewController
 {
-    override func loadView() {
+    override func loadView()
+    {
         view = DrawView.init(frame: .zero)
     }
 }
